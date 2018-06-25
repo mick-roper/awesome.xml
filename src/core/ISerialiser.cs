@@ -6,7 +6,7 @@ namespace Awesome.Xml
 {
     public interface ISerialiser
     {
-        string Serialise<T>(T instance) where T : class;
-        T Deserialise<T>(string data) where T : class;
+        string Serialise<T>(T instance) where T : class, new();
+        T Deserialise<T>(string data) where T : class, new();
     }
 }
