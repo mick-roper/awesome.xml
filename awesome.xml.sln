@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core", "src\core\core.csproj", "{A8061BE6-1BB0-46A5-9E0C-86F2B087F031}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8394F6E7-1DD3-4ABF-9407-A165DE7BC268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F6FABCB3-5EFA-4AB8-AD3F-FDC398C5BB06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "core.tests", "tests\core.tests\core.tests.csproj", "{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8061BE6-1BB0-46A5-9E0C-86F2B087F031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8061BE6-1BB0-46A5-9E0C-86F2B087F031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8061BE6-1BB0-46A5-9E0C-86F2B087F031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8061BE6-1BB0-46A5-9E0C-86F2B087F031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8061BE6-1BB0-46A5-9E0C-86F2B087F031} = {8394F6E7-1DD3-4ABF-9407-A165DE7BC268}
+		{BF00BA1F-66E4-4FBF-B7AD-DB1CCD5D9363} = {F6FABCB3-5EFA-4AB8-AD3F-FDC398C5BB06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F888422-2408-4DD4-815C-BE7A8FBC6DB8}
