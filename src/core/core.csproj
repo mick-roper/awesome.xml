@@ -6,8 +6,4 @@
     <RootNamespace>Awesome.Xml</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
-
 </Project>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Order>
+  <CustomerId>ABC-123</CustomerId>
+  <Date>2018-05-01</Date>
+  <PurchaseOrderNo>123456798</PurchaseOrderNo>
+  <Lines>
+    <Line id="1">
+      <ProductId>PRD-00001</ProductId>
+      <Quantity>10</Quantity>
+      <Nett Currency="£">750</Nett>
+    </Line>
+    <Line id="2">
+      <ProductId>PRD-00002</ProductId>
+      <Quantity>10</Quantity>
+      <Nett Currency="£">750</Nett>
+    </Line>
+    <Line id="3">
+      <ProductId>PRD-00003</ProductId>
+      <Quantity>10</Quantity>
+      <Nett Currency="£">750</Nett>
+    </Line>
+  </Lines>
+  <Financials>
+    <Nett Currency="£">750</Nett>
+    <Tax Currency="£">150</Tax>
+    <Gross Currency="£">900</Gross>
+    <Paid Currency="£">0</Paid>
+    <Balance Currency="£">900</Balance>
+  </Financials>
+</Order>
